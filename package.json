@@ -1,0 +1,34 @@
+{
+	"name": "nodeunit-esm",
+	"description": "Remake of https://github.com/caolan/nodeunit using ECMAScript modules.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thoughtsunificator/nodeunit-esm.git"
+	},
+	"bugs": {
+		"url": "https://github.com/thoughtsunificator/nodeunit-esm/issues"
+	},
+	"version": "1.0.1",
+	"type": "module",
+	"devDependencies": {
+		"should": ">=11.1.0",
+		"uglify-js": ">=2.7.3"
+	},
+	"bin": {
+		"nodeunit-esm": "bin/nodeunit.js"
+	},
+	"dependencies": {
+		"ejs": "^2.5.2",
+		"tap": "^12.7.0"
+	},
+	"scripts": {
+		"test": "node ./bin/nodeunit.js"
+	},
+	"author": "Romain Lebesle <oss@thoughtsunificator.me> (https://thoughtsunificator.me)",
+	"license": "MIT",
+	"directories": {
+		"lib": "./lib",
+		"doc": "./doc",
+		"man": "./man1"
+	}
+}

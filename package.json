@@ -8,7 +8,7 @@
 	"bugs": {
 		"url": "https://github.com/thoughtsunificator/nodeunit-esm/issues"
 	},
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"type": "module",
 	"devDependencies": {
 		"should": "^13.2.3",

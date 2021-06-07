@@ -1,5 +1,6 @@
 {
 	"name": "nodeunit-esm",
+	"main": "index.js",
 	"description": "Remake of https://github.com/caolan/nodeunit using ECMAScript modules.",
 	"repository": {
 		"type": "git",

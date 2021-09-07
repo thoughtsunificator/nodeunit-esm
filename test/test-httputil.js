@@ -1,4 +1,4 @@
-import nodeunit from '../lib/nodeunit.js';
+import { nodeunit } from '../index.js';
 import { httputil } from '../lib/utils.js';
 
 export const testHttpUtilBasics = function (test) {

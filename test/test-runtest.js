@@ -4,7 +4,7 @@
  *  that is node specific
  */
 
-import nodeunit from '../lib/nodeunit.js'; // @REMOVE_LINE_FOR_BROWSER
+import { nodeunit } from '../index.js'; // @REMOVE_LINE_FOR_BROWSER
 
 export const testArgs = function (test) {
 		test.ok(test.expect instanceof Function, 'test.expect');

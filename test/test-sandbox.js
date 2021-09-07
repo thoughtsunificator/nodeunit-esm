@@ -1,5 +1,5 @@
 import path from 'path';
-import nodeunit from '../lib/nodeunit.js';
+import { nodeunit } from '../index.js';
 import { sandbox } from '../lib/utils.js';
 const testCase = nodeunit.testCase;
 

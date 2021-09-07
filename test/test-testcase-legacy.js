@@ -4,7 +4,7 @@
  *  that is node specific
  */
 
-import nodeunit from '../lib/nodeunit.js'; // @REMOVE_LINE_FOR_BROWSER
+import { nodeunit } from '../index.js'; // @REMOVE_LINE_FOR_BROWSER
 const testCase = nodeunit.testCase;
 
 export const testTestCase = function (test) {

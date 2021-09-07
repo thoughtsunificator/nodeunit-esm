@@ -1,4 +1,4 @@
-import nodeunit from '../lib/nodeunit.js';
+import { nodeunit } from '../index.js';
 
 export const testFailingLog = function (test) {
 		test.expect(3);

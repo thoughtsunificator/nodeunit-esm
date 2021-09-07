@@ -11,7 +11,7 @@
 
 import assert from 'assert';            // @REMOVE_LINE_FOR_BROWSER
 import async from '../deps/async.js';       // @REMOVE_LINE_FOR_BROWSER
-import nodeunit from '../lib/nodeunit.js'; // @REMOVE_LINE_FOR_BROWSER
+import { nodeunit } from '../index.js'; // @REMOVE_LINE_FOR_BROWSER
 
 // NOT A TEST - util function to make testing faster.
 // retries the assertion until it passes or the timeout is reached,

@@ -1,7 +1,7 @@
 import * as assert from 'assert';
 import fs from 'fs';
 import path from 'path';
-import nodeunit from '../lib/nodeunit.js';
+import { nodeunit } from '../index.js';
 
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

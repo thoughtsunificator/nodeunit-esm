@@ -1,4 +1,4 @@
-# nodeunit-esm [![Build Status](https://travis-ci.com/thoughtsunificator/nodeunit-esm.svg?branch=master)](https://travis-ci.com/thoughtsunificator/nodeunit-esm)
+# nodeunit-esm
 
 Remake of https://github.com/caolan/nodeunit using ECMAScript modules.
 
